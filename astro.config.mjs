@@ -13,7 +13,7 @@ export default defineConfig({
 			},
 		},
 	},
-	site: "https://majestico.co",
+	site: "https://sujitra.vercel.app/",
 	i18n: {
 		defaultLocale: "en",
 		locales: ["en", "it"],

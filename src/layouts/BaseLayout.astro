@@ -14,18 +14,16 @@ const { seo: seoProp } = Astro.props;
 
 const lang = getLangFromUrl(Astro.url);
 
-const shareImage = new URL("/images/meta/majestico_share.gif", Astro.site).toString();
+const shareImage = new URL("/images/meta/sujitra_share.gif", Astro.site).toString();
 
 const defaultSeo: AstroSeoProps = {
 	title: "Sujitra",
-	description:
-		"yoyoyo",
+	description: "yoyoyo",
 	canonical: "https://sujitra.vercel.app",
 	openGraph: {
 		url: "https://sujitra.vercel.app",
 		title: "Sujitra",
-		description:
-			"yoyoyo",
+		description: "yoyoyo",
 		images: [
 			{
 				url: shareImage,
@@ -44,7 +42,7 @@ const defaultSeo: AstroSeoProps = {
 		],
 		site_name: "Sujitra",
 	},
-	
+
 	additionalMetaTags: [
 		{
 			name: "publisher",

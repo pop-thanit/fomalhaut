@@ -1,15 +1,15 @@
 {
-	"name": "@majesticostudio/majestico.co",
+	"name": "@sujitrastudio/sujitra.vercel.app",
 	"type": "module",
 	"version": "0.0.1",
 	"private": true,
-	"description": "majestico.co website",
+	"description": "sujitra.vercel.app website",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/majesticostudio/majestico.co.git"
+		"url": "https://github.com/sujitrastudio/sujitra.vercel.app.git"
 	},
-	"bugs": "https://github.com/majesticostudio/majestico.co/issues",
-	"homepage": "https://majestico.co",
+	"bugs": "https://github.com/sujitrastudio/sujitra.vercel.app/issues",
+	"homepage": "https://sujitra.vercel.app/",
 	"files": [
 		"*"
 	],
