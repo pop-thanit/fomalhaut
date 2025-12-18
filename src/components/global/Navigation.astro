@@ -1,6 +1,5 @@
 ---
-import { Image } from "astro:assets";
-import { Icon } from "astro-icon/components";
+
 import { getLangFromUrl, getUrlWithoutLang, useTranslations, useTranslatedPath } from "@i18n/utils";
 
 const lang = getLangFromUrl(Astro.url);
@@ -11,31 +10,31 @@ const translatePath = useTranslatedPath(lang);
 let pages = [
 	{
 		id: "home",
-		initialTitle: "H",
-		title: "Home",
+		initialTitle: "S",
+		title: "SUJITRA",
 		class: "home",
 		url: "/",
 	},
 	{
 		id: "services",
-		initialTitle: "S",
-		title: t("services"),
+		initialTitle: "P",
+		title: "PAN",
 		class: "services",
-		url: "/services",
+		url: "/",
 	},
 	{
 		id: "blog",
-		initialTitle: "B",
-		title: "Blog",
+		initialTitle: "T",
+		title: "TA",
 		class: "blog",
-		url: "/blog/",
+		url: "/",
 	},
 	{
 		id: "contact",
-		initialTitle: "C",
-		title: t("contacts"),
+		initialTitle: "A",
+		title: "AKE",
 		class: "contact",
-		url: "/contact/",
+		url: "/",
 	},
 ];
 

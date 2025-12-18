@@ -1,16 +1,11 @@
 ---
 import { Image } from "astro:assets";
-import { getLangFromUrl, useTranslations, useTranslatedPath } from "@i18n/utils";
 
-const lang = getLangFromUrl(Astro.url);
-const t = useTranslations(lang);
-const translatePath = useTranslatedPath(lang);
-
-const { image, video, project, link, description, class: className } = Astro.props;
+const { image, video, project, description, class: className } = Astro.props;
 ---
 
 <li class:list={["group flex flex-col", className]}>
-	<a href={translatePath(link)} aria-label={`Project ${project}`}>
+	<div aria-label={`Project ${project}`}>
 		{
 			video != null ? (
 				<video class="aspect-[1.9/1] object-cover" src={video} loop muted playsinline autoplay />
@@ -20,14 +15,13 @@ const { image, video, project, link, description, class: className } = Astro.pro
 				<div>{project}</div>
 			)
 		}
-	</a>
+	</div>
 	<div class="px-2 py-4">
-		<a href={translatePath(link)} class="flex items-baseline justify-between text-base font-medium lg:gap-x-8">
+		<div class="flex items-baseline justify-between text-base font-medium lg:gap-x-8">
 			<h3 class="preview-project-title font-mono text-base font-medium uppercase tracking-wide md:mt-0">
 				{project}
 			</h3>
-			<span class="text-right text-base hover:text-primary-700 group-hover:animate-pulse-fast">■</span>
-		</a>
+		</div>
 		{description && <p class="mt-8 line-clamp-2 text-sm text-slate-500">{description}</p>}
 	</div>
 </li>

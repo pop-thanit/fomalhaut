@@ -15,7 +15,7 @@ export const ui = {
 		services: "Services",
 		homepage: "Homepage",
 		tagline:
-			"Weaving digital dreams into reality. Where innovation dances with imagination, and every pixel tells a story of boundless creativity.",
+			"I'm writing in English since I saw you're learning it and putting in the effort. If you have any questions about anything, feel free to ask me - but no promises I'll know the answer! LOL",
 		"projects.yours": "Your project",
 		"projects.see": "See project",
 		"hero.title.main": "We shape",
@@ -24,7 +24,7 @@ export const ui = {
 		"hero.title.3": "worlds",
 		"hero.title.4": "futures",
 		"hero.subtitle":
-			"Conjuring digital realms where imagination takes flight and possibilities know no bounds",
+			"I see you really care about your health and take a bunch of supplements, so I put together this 'Angel Vitamin Set' for you. Everything in here is research-backed and actually works for beauty. Hope you like it!",
 		"hero.scroll": "scroll down to explore",
 		"websites.title": "Websites",
 		"apps.title": "Apps",
