@@ -9,7 +9,7 @@
 		"url": "https://github.com/sujitrastudio/sujitra.vercel.app.git"
 	},
 	"bugs": "https://github.com/sujitrastudio/sujitra.vercel.app/issues",
-	"homepage": "https://sujitra.vercel.app/",
+	"homepage": "https://sujitra.vercel.app",
 	"files": [
 		"*"
 	],

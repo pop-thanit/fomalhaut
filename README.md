@@ -45,4 +45,4 @@ On the folder run
 
 ---
 
-<p align="right"><a href="https://sujitra.vercel.app/" target="_blank">sujitra.vercel.app</p>
+<p align="right"><a href="https://sujitra.vercel.app" target="_blank">sujitra.vercel.app</p>
