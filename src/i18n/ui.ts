@@ -15,7 +15,7 @@ export const ui = {
 		services: "Services",
 		homepage: "Homepage",
 		tagline:
-			"I'm writing in English since I saw you're learning it - keep up the great work! If you ever have questions about anything, I'm happy to help ( though I can't promise I'll always know the answer 😄). ) Wishing you a wonderful New Year kub, N'Dao! 🎉).",
+			"I'm writing in English since I saw you're learning it - keep up the great work! If you ever have questions about anything, I'm happy to help ( though I can't promise I'll always know the answer 😄). ) Wishing you a wonderful New Year kub, N'Dao🎉).",
 		"projects.yours": "Your project",
 		"projects.see": "See project",
 		"hero.title.main": "We shape",
