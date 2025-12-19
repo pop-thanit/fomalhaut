@@ -15,7 +15,7 @@ export const ui = {
 		services: "Services",
 		homepage: "Homepage",
 		tagline:
-			"I'm writing in English since I saw you're learning it and putting in the effort. If you have any questions about anything, feel free to ask me - but no promises I'll know the answer! LOL",
+			"I'm writing in English since I saw you're learning it - keep up the great work! If you ever have questions about anything, I'm happy to help ( though I can't promise I'll always know the answer 😄). ) Wishing you a wonderful New Year kub, N'Dao! 🎉).",
 		"projects.yours": "Your project",
 		"projects.see": "See project",
 		"hero.title.main": "We shape",
@@ -24,7 +24,7 @@ export const ui = {
 		"hero.title.3": "worlds",
 		"hero.title.4": "futures",
 		"hero.subtitle":
-			"I see you really care about your health and take a bunch of supplements, so I put together this 'Angel Vitamin Set' for you. Everything in here is research-backed and actually works for beauty. Hope you like it!",
+			"I noticed how dedicated you are to taking care of your health with all your supplements - it's really inspiring! So I put together this little 'Angel Vitamin Set' especially for you. I made sure everything in here is research-backed and genuinely effective for beauty and wellness. I hope you love it!  💝.)",
 		"hero.scroll": "scroll down to explore",
 		"websites.title": "Websites",
 		"apps.title": "Apps",

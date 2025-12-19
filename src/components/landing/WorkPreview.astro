@@ -1,11 +1,11 @@
 ---
 import { getCollection } from "astro:content";
 import WokCard from "@components/work/WokCard.astro";
-import { getLangFromUrl, useTranslatedPath, useTranslations } from "@i18n/utils";
+import { getLangFromUrl, useTranslations } from "@i18n/utils";
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
-const translatePath = useTranslatedPath(lang);
+
 
 const { class: className } = Astro.props;
 

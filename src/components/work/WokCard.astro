@@ -5,7 +5,7 @@ import { Image } from "astro:assets";
 const { image, video, project, description, order, class: className } = Astro.props;
 ---
 
-<li class:list={["group flex flex-col", className]}>
+<li class:list={["group flex flex-col z-50", className]}>
     <div aria-label={`Project ${project}`}>
         {
             video != null ? (
@@ -13,7 +13,7 @@ const { image, video, project, description, order, class: className } = Astro.pr
                 <video 
                     class:list={[
                         "object-cover", 
-                        order === 2 ? "aspect-[1.2/1]" : "aspect-[1.8/1]" 
+                        order === 2 ? "aspect-[1.2/1]" : "aspect-auto" 
                     ]} 
                     src={video} 
                     loop muted playsinline autoplay 
